@@ -16,3 +16,22 @@ plt.title('Maui Food Insecurity by ZipCode', fontsize=20)
 plt.ylabel('Percentage Organized by Need', fontsize=15, labelpad=15)
 plt.xlabel('Maui Zip Codes', fontsize=15, labelpad=25,)
 print("Please refer to the table above for which Zipcode corresponds to which City")
+
+Output
+Zipcode  Index        City
+0     96770   97.5    Maunaloa
+1     96729   92.8    Hoolehua
+2     96757   88.3    Kualapuu
+3     96748   86.3  Kaunakakai
+4     96763   45.0  Lanai City
+5     96732   29.3     Kahului
+6     96793   19.7     Wailuku
+7     96753   16.8       Kihei
+8     96713   15.8        Hana
+9     96761   14.6     Lahaina
+10    96790   13.2        Kula
+11    96768   12.6     Makawao
+12    96779    8.0        Paia
+13    96708    7.2       Haiku
+Please refer to the table above for which Zipcode corresponds to which City.
+Please note that the higher the index, the higher the food insecurity of the location is.
