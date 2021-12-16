@@ -13,6 +13,6 @@ sns.barplot(x = maui_food_df['Zipcode'], y = maui_food_df['Index'], order=maui_f
 sns.set(rc = {'figure.figsize':(15,10)})
 plt.yticks(np.arange(0, 110, 10))
 plt.title('Maui Food Insecurity by ZipCode', fontsize=20)
-plt.ylabel('Percentage Organized by Need', fontsize=15, labelpad=15)
+plt.ylabel('Percentage', fontsize=15, labelpad=15)
 plt.xlabel('Maui Zip Codes', fontsize=15, labelpad=25,)
 print("Please refer to the table above for which Zipcode corresponds to which City")
